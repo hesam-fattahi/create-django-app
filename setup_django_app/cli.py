@@ -1,5 +1,5 @@
 import argparse
-from .create_django_app import create_django_app
+from .setup_django_app import setup_django_app
 
 
 def main():
@@ -12,4 +12,4 @@ def main():
     )
     args = parser.parse_args()
 
-    create_django_app(args.project_name, args.verbose)
+    setup_django_app(args.project_name, args.verbose)
