@@ -51,7 +51,7 @@ def start_django_project(project_name):
         sys.exit(1)
 
 
-def setup_django_app(project_name, verbose=False):
+def start_django_app(project_name, verbose=False):
     """Main function to create the Django app."""
 
     try:

@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="setup-django-app",
+    name="start-django-app",
     version="0.1",
     packages=find_packages(),
     entry_points={
         "console_scripts": [
-            "setup-django-app=setup_django_app.cli:main",
+            "start-django-app=start_django_app.cli:main",
         ],
     },
     classifiers=[

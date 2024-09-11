@@ -1,6 +1,6 @@
-# Setup Django App
+# Start Django App
 
-`setup-django-app` is a command-line tool that automates the creation of a new Django project by setting up a virtual environment, installing Django, and initializing the project. It works on both Windows and Unix-like systems, ensuring cross-platform compatibility.
+`Start-django-app` is a command-line tool that automates the creation of a new Django project by setting up a virtual environment, installing Django, and initializing the project. It works on both Windows and Unix-like systems, ensuring cross-platform compatibility.
 
 ## Features
 
@@ -16,17 +16,17 @@
 
 ## Installation
 
-You can install `setup-django-app` using `pip`:
+You can install `start-django-app` using `pip`:
 
 ```bash
-pip install setup-django-app
+pip install start-django-app
 ```
 
 ## Usage
 To create a new Django project, run the following command:
 
 ```bash
-setup-django-app <project_name>
+start-django-app <project_name>
  ```
 
 Replace ```<project_name>``` with the desired name of your Django project.
@@ -34,7 +34,7 @@ Replace ```<project_name>``` with the desired name of your Django project.
 ## Example
 
 ```bash
-setup-django-app my_project
+start-django-app my_project
 ```
 
 This will:
